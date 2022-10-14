@@ -21,7 +21,52 @@
     <div class="form-content">
         <form class="form" action="#">
             <div class="form-head">
+                <img src="../assets/close_btn3.png">
                 <span class="form-text">PERSON ADDRESS FORM</span>
+            </div>
+            <div class="form-adds">
+                <div class="form-col-content">
+                    <label class="text-label">Full Name</label>
+                    <input class="adds-input" type="text" id="adds-name" name="adds-name">
+                </div>
+                <div class="form-col-content">
+                    <label class="text-label">Phone Number</label>
+                    <input class="adds-input" type="text" id="phone-no" name="phone-no">
+                </div>
+                <div class="form-col-content">
+                    <label class="text-label">Address</label>
+                    <textarea class="text-adds" type="text" id="phone-no" name="phone-no"></textarea>
+                </div>
+                <div class="form-row-content">
+                    <div class="row-content">
+                        <label class="text-label">City</label>
+                        <select class="input-list" name="city" id="city">
+                            <option value="none" selected disabled hidden>Select city</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                          </select>
+                    </div>
+                    <div class="row-content">
+                        <label class="text-label">State</label>
+                        <select class="input-list" name="state" id="state">
+                            <option value="none" class="text-label" selected disabled hidden>Select State</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                          </select>
+                    </div>
+                    <div class="row-content">
+                        <label class="text-label">Zip Code</label>
+                        <input class="input-zip-zode" type="text" id="zip-code" name="zip-code">
+                    </div>
+                </div>
+                <div class="btn-row">
+                    <button class="btn" type="submit" onclick="">Add</button>
+                    <button class="btn" type="submit" onclick="">Add</button>
+                </div>
             </div>
         </form>
     </div>
