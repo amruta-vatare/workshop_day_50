@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/person_details.css">
+    <title>Person Details</title>
+</head>
+<body>
+    <header class="page-header">
+        <img class="logo-image" src="../assets/add_book_Logo.png">
+        <div class="logo-title">
+            <span class="logo-title-1">ADDRESS</span>
+            <span class="logo-title-2">BOOK</span>
+        </div>
+    </header>
+    <div class="page-content">
+        <div class="page-content-header">
+            <span class="pc-title-label">Person Details</span>
+            <a href="../html/person_address_form.html" class="add-person-btn">
+                <img src="../assets/plus-math.png" alt="plus-sign" class="add-btn-image">
+                <span class="add-person-label">Add Person</span>
+            </a>
+        </div>
+        <div class="page-content-body">
+            <table class="table">
+                <tr class="table-heading-row">
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Zip Code</th>
+                    <th>Phone Number</th>
+                </tr>
+                <tr class="table-data-row">
+                    <td>Amruta Sudhir Vatare</td>
+                    <td>Keshav Nagar,Pune</td>
+                    <td>Pune</td>
+                    <td>Maharashtra</td>
+                    <td>413411</td>
+                    <td>9098887889</td>
+                    <td>
+                        <img id="1" onclick="remove(this)" alt="delete"
+                        src="../assets/delete.png" height="20px" width="20px">
+                        <img class="edit-img" id="1" alt="edit" onclick="update(this)"
+                        src="../assets/edit.webp" height="20px" width="20px">
+                    </td>
+                </tr>
+                <tr class="table-data-row">
+                    <td>Amruta Sudhir Vatare</td>
+                    <td>Keshav Nagar,Pune</td>
+                    <td>Pune</td>
+                    <td>Maharashtra</td>
+                    <td>413411</td>
+                    <td>9098887889</td>
+                    <td>
+                        <img  id="1" onclick="remove(this)" alt="delete"
+                        src="../assets/delete.png" height="20px" width="20px">
+                        <img class="edit-img" id="1" alt="edit" onclick="update(this)"
+                        src="../assets/edit.webp" height="20px" width="20px">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

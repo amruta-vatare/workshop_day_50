@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/person_address_form.css">
+    <script src="../javascript/person_detail.js"></script>
+    <script src="../javascript/person_address_form.js"></script>
     <title>Person Address Form</title>
 </head>
 
 <body>
-    <header class="header-content header">
-        <div class="logo-content">
-            <img src="../assets/add_book_Logo.png">
-            <div>
-                <span class="add-text">ADDRESS</span>
-                <span class="add-text add-book">BOOK</span>
-            </div>
+    <header class="page-header">
+        <img class="logo-image" src="../assets/add_book_Logo.png">
+        <div class="logo-title">
+            <span class="logo-title-1">ADDRESS</span>
+            <span class="logo-title-2">BOOK</span>
         </div>
     </header>
     <div class="form-content">
-        <form class="form" action="#">
+        <form class="form" action="#" onsubmit="save();return false">
             <div class="form-head">
                 <img src="../assets/close_btn3.png">
                 <span class="form-text">PERSON ADDRESS FORM</span>
@@ -64,7 +64,7 @@
                     </div>
                 </div>
                 <div class="btn-row">
-                    <button class="btn" type="submit" onclick="">Add</button>
+                    <button class="btn" type="submit" onclick="">Reset</button>
                     <button class="btn" type="submit" onclick="">Add</button>
                 </div>
             </div>
